@@ -1,0 +1,61 @@
+/* frontend/src/components/Navbar.css */
+
+.navbar {
+    background: linear-gradient(90deg, #1a2a3a 0%, #2c3e50 100%);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-menu li a:hover {
+    color: #ffd700;
+    background: rgba(255,255,255,0.1);
+}
+
+.admin-link {
+    background: #ffd700;
+    color: #1a2a3a !important;
+    font-weight: bold !important;
+}
+
+.admin-link:hover {
+    background: #ffed4a !important;
+    color: #1a2a3a !important;
+}
